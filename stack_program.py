@@ -33,3 +33,12 @@ class Stack:
 if __name__ == "__main__":
     s= Stack()
     print(s)
+    print(s.is_empty())
+    s.push(3)
+    print(s)
+    s.push(7)
+    print(s)
+    s.pop()
+    print(s)
+    print(s.size())
+    print(s.peek())
