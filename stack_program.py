@@ -20,3 +20,6 @@ class Stack:
     
     def pop(self):
         self.items.pop()
+    
+    def peek(self):
+        return self.items[-1]
